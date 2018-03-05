@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A7FAFDEA204B86D900498AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFDE9204B86D900498AA8 /* AppDelegate.swift */; };
-		A7FAFDEC204B86D900498AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFDEB204B86D900498AA8 /* ViewController.swift */; };
 		A7FAFDEF204B86D900498AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FAFDED204B86D900498AA8 /* Main.storyboard */; };
 		A7FAFDF1204B86D900498AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FAFDF0204B86D900498AA8 /* Assets.xcassets */; };
 		A7FAFDF4204B86D900498AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FAFDF2204B86D900498AA8 /* LaunchScreen.storyboard */; };
 		A7FAFDFF204B86D900498AA8 /* LoreHolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFDFE204B86D900498AA8 /* LoreHolderTests.swift */; };
 		A7FAFE0A204B86DA00498AA8 /* LoreHolderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFE09204B86DA00498AA8 /* LoreHolderUITests.swift */; };
+		A7FAFE18204B8ABA00498AA8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFE17204B8ABA00498AA8 /* TableViewController.swift */; };
+		A7FAFE1A204CBFA100498AA8 /* LoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFE19204CBFA100498AA8 /* LoreTableViewCell.swift */; };
+		A7FAFE1C204CC15200498AA8 /* Lore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFE1B204CC15200498AA8 /* Lore.swift */; };
+		A7FAFE1E204CC64F00498AA8 /* LoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFE1D204CC64F00498AA8 /* LoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		A7FAFDE6204B86D900498AA8 /* LoreHolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoreHolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FAFDE9204B86D900498AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7FAFDEB204B86D900498AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7FAFDEE204B86D900498AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7FAFDF0204B86D900498AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7FAFDF3204B86D900498AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		A7FAFE05204B86DA00498AA8 /* LoreHolderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoreHolderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FAFE09204B86DA00498AA8 /* LoreHolderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoreHolderUITests.swift; sourceTree = "<group>"; };
 		A7FAFE0B204B86DA00498AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FAFE17204B8ABA00498AA8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A7FAFE19204CBFA100498AA8 /* LoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoreTableViewCell.swift; sourceTree = "<group>"; };
+		A7FAFE1B204CC15200498AA8 /* Lore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lore.swift; sourceTree = "<group>"; };
+		A7FAFE1D204CC64F00498AA8 /* LoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		A7FAFDE8204B86D900498AA8 /* LoreHolder */ = {
 			isa = PBXGroup;
 			children = (
+				A7FAFE17204B8ABA00498AA8 /* TableViewController.swift */,
+				A7FAFE1D204CC64F00498AA8 /* LoreViewController.swift */,
 				A7FAFDE9204B86D900498AA8 /* AppDelegate.swift */,
-				A7FAFDEB204B86D900498AA8 /* ViewController.swift */,
 				A7FAFDED204B86D900498AA8 /* Main.storyboard */,
+				A7FAFE19204CBFA100498AA8 /* LoreTableViewCell.swift */,
+				A7FAFE1B204CC15200498AA8 /* Lore.swift */,
 				A7FAFDF0204B86D900498AA8 /* Assets.xcassets */,
 				A7FAFDF2204B86D900498AA8 /* LaunchScreen.storyboard */,
 				A7FAFDF5204B86D900498AA8 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FAFDEC204B86D900498AA8 /* ViewController.swift in Sources */,
 				A7FAFDEA204B86D900498AA8 /* AppDelegate.swift in Sources */,
+				A7FAFE1E204CC64F00498AA8 /* LoreViewController.swift in Sources */,
+				A7FAFE1A204CBFA100498AA8 /* LoreTableViewCell.swift in Sources */,
+				A7FAFE18204B8ABA00498AA8 /* TableViewController.swift in Sources */,
+				A7FAFE1C204CC15200498AA8 /* Lore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
